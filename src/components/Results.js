@@ -104,7 +104,7 @@ const Results = () => {
       <div className="d-flex align-items-center">
         {/* Image */}
         <small>
-          Image source: <a href="https://www.drakesoftware.com" target="_blank" rel="noopener noreferrer">Drake Software</a>
+          Image source: <a href="https://www.drakesoftware.com/blog" target="_blank" rel="noopener noreferrer">Drake Software</a>
         </small>
         <img
           src="https://www.drakesoftware.com/media/3313/help-taxpayers-settle-irs-debts.png?anchor=center&mode=crop&width=1024&height=576&rnd=133737316900000000"

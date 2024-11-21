@@ -22,7 +22,7 @@ return (
         <Col md={4} className="mb-4">
             <Card className="h-100 shadow-sm">
             <Card.Body>
-                <Card.Title>About Us</Card.Title>
+                <Card.Title>About us</Card.Title>
                 <Card.Text>
                 Learn more about our mission to empower individuals in making informed decisions about personal growth and budgeting.
                 </Card.Text>
@@ -36,26 +36,12 @@ return (
         <Col md={4} className="mb-4">
             <Card className="h-100 shadow-sm">
             <Card.Body>
-                <Card.Title>Your Quiz Results</Card.Title>
+                <Card.Title>Your quiz results</Card.Title>
                 <Card.Text>
                 Finished the quiz? Head over to the results page to discover insights about your habits and potential areas for growth.
                 </Card.Text>
                 <Button as={Link} to="/results" variant="outline-primary">
                 View Results
-                </Button>
-            </Card.Body>
-            </Card>
-        </Col>
-        
-        <Col md={4} className="mb-4">
-            <Card className="h-100 shadow-sm">
-            <Card.Body>
-                <Card.Title>More information</Card.Title>
-                <Card.Text>
-                Looking for more information and resources? See our sources, research, and more.
-                </Card.Text>
-                <Button as={Link} to="/information" variant="outline-primary">
-                More information
                 </Button>
             </Card.Body>
             </Card>
@@ -69,7 +55,10 @@ return (
         <Row className="gy-4">
         <Col md={4}>
             <Card className="border-0">
-            <Card.Img src="https://via.placeholder.com/300x200" alt="Self Awareness" />
+            <Card.Img src="https://cdn-res.keymedia.com/cdn-cgi/image/f=auto/https://cdn-res.keymedia.com/cms/images/us/069/0270_638355688556018175.jpg" alt="Self Awareness" />
+            <small>
+            Image source: <a href="https://www.thesafetymag.com/ca/topics/safety-and-ppe/beyond-compliance-unleashing-potential-through-self-awareness/466597" target="_blank" rel="noopener noreferrer">Drake Software</a>
+            </small>
             <Card.Body>
                 <Card.Title>Self-Awareness</Card.Title>
                 <Card.Text>
@@ -80,7 +69,10 @@ return (
         </Col>
         <Col md={4}>
             <Card className="border-0">
-            <Card.Img src="https://via.placeholder.com/300x200" alt="Personal Growth" />
+            <Card.Img src="https://www.usatoday.com/gcdn/presto/2023/07/20/USAT/a03e93be-d7e1-456e-b7e7-809577d8ac0f-roth-ira-contribution-rules.jpg?crop=700,467,x0,y0&width=660&height=441&format=pjpg&auto=webp" alt="Personal Growth" />
+            <small>
+            Image source: <a href="https://www.usatoday.com/story/money/personalfinance/2024/07/11/roth-ira-conversions-gen-x-retirement-options/74346959007/" target="_blank" rel="noopener noreferrer">USA Today</a>
+            </small>
             <Card.Body>
                 <Card.Title>Personal Growth</Card.Title>
                 <Card.Text>
@@ -91,7 +83,10 @@ return (
         </Col>
         <Col md={4}>
             <Card className="border-0">
-            <Card.Img src="https://via.placeholder.com/300x200" alt="Financial Awareness" />
+            <Card.Img src="https://cooperatornews.com/_data/ny/articles/11733_image1.jpg?w=793" alt="Financial Awareness" />
+            <small>
+            Image source: <a href="https://cooperatornews.com/article/financial-literacy-for-board-members" target="_blank" rel="noopener noreferrer">Cooperator News</a>
+            </small>
             <Card.Body>
                 <Card.Title>Financial Awareness</Card.Title>
                 <Card.Text>

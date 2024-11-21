@@ -21,7 +21,7 @@ return (
                 className="img-fluid rounded"
                 />
                 <small>
-                Image source: <a href="https://www.drakesoftware.com" target="_blank" rel="noopener noreferrer">Drake Software</a>
+                Image source: <a href="https://www.drakesoftware.com/taxing-subjects/mission-statement-for-tax-preparation-businesses/" target="_blank" rel="noopener noreferrer">Drake Software</a>
                 </small>
             </div>
             </div>
@@ -37,10 +37,13 @@ return (
             </div>
             <div className="col-md-6 order-md-1">
                 <img 
-                src="https://via.placeholder.com/500x300" 
+                src="https://www.drakesoftware.com/media/3309/aicpa.png?crop=0,0,0.085583925784636042,0.0853129876885723&cropmode=percentage&width=750&height=422&rnd=133698508980000000" 
                 alt="Illustration of benefits" 
                 className="img-fluid rounded"
                 />
+                <small>
+                Image source: <a href="https://www.drakesoftware.com/taxing-subjects/mission-statement-for-tax-preparation-businesses/" target="_blank" rel="noopener noreferrer">Drake Software</a>
+                </small>
             </div>
             </div>
         </section>
