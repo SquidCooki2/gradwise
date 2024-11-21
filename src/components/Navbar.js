@@ -6,7 +6,7 @@ const NavigationBar = () => {
   return (
     <Navbar bg="success" variant="dark" sticky="top">
       <Container>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} to="/gradwise">
           <img
             src="./GradWise.png"
             alt="Logo"
